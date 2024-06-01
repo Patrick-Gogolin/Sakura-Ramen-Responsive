@@ -1,0 +1,457 @@
+
+        html {
+
+            scroll-behavior: smooth;
+        }
+
+        .mybody {
+            margin: 0px;
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 96px;
+            margin: 0px;
+            font-family: 'Raleway-bold', sans-serif;
+        }
+
+        .aot {
+            height: 100vh;
+            background-image: url(img/hero_bg.jpg);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+
+        .secondheadline {
+            font-size: 24px;
+            font-family: 'Raleway', sans-serif;
+            color: white;
+            margin-top: 32px;
+        }
+
+        header {
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            padding: 66px 128px;
+        }
+
+        header a {
+            color: white;
+            font-family: 'Raleway', sans-serif;
+            text-decoration: none;
+        }
+
+        header a:hover {
+            cursor: pointer;
+            background-color: #9F0908;
+            padding: 5px;
+        }
+
+        .flower {
+            width: 64px;
+            height: 64px;
+        }
+
+        .sakura_logo {
+            height: 40px;
+            display: none;
+        }
+
+        nav {
+            font-family: 'Raleway', sans-serif;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+        }
+
+        .menulink {
+            margin-left: 80px;
+        }
+
+        .number {
+            margin-left: 80px;
+            background-color: #9F0908;
+            border-radius: 5px;
+            border-style: solid;
+            border-color: white;
+            display: flex;
+            align-items: center;
+        }
+
+        .phone {
+            width: 26px;
+            height: 26px;
+            margin-right: 5px;
+        }
+
+        .how_to_order_section {
+            padding: 120px 128px;
+        }
+
+        h2 {
+            font-family: 'Raleway', sans-serif;
+            color: #9F0908;
+            font-weight: bold;
+            text-align: center;
+            font-size: 80px;
+            margin: 0px;
+        }
+
+        .instruction {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 64px;
+
+        }
+
+        .instruction_picture_text {
+            font-size: 32px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Economica', sans-serif;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .bowls {
+            width: 124px;
+            margin-bottom: 16px;
+        }
+
+        .our_menu_section {
+            background-image: url(./img/section_our_menu_bg.jpg);
+            background-size: cover;
+            background-position: center;
+            padding: 120px 128px;
+        }
+        
+        .tonkutso_ramen {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 64px;
+        }
+
+        .r1 {
+            width: 352px;
+            height: 352px;
+            margin-right: 80px;
+        }
+
+        .spicy_miso_ramen {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 56px;
+        }
+
+        .r2 {
+            width: 352px;
+            height: 352px;
+            margin-left: 80px;
+        }
+
+        .shio_ramen {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 56px;
+        }
+
+        .r3 {
+            width: 352px;
+            height: 352px;
+            margin-right: 80px;
+        }
+
+        thead {
+            font-family: 'Economica', sans-serif;
+            font-weight: bold;
+            font-size: 56px;
+            margin-bottom: 16px;
+            display: flex;
+        }
+
+        tbody {
+            font-family: 'Raleway', sans-serif;
+            font-weight: bold;
+            font-size: 32px;
+            color: #675E54;
+            line-height: 1.25;
+        }
+
+        .find_us_at {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 120px 0px 14px 0px;
+        }
+
+        .streetname {
+            font-family: 'Raleway', sans-serif;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+        }
+
+        .map_marker {
+            width: 26px;
+            height: 26px;
+            margin-right: 5px;
+        }
+
+        .google_maps {
+            width: 100%;
+            margin-top: 64px;
+        }
+
+        footer {
+            background-color: #0A141E;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 77px 128px; 
+        }
+
+        .sakura_ramen_logo_and_text {
+            height: 44px;
+        }
+
+        .social_media{
+            display: flex;
+            gap: 32px;
+        }
+
+        .social_media_reference {
+            width: 40px;
+            height: 40px;
+        }
+
+        @media(max-width: 1160px) {
+            .number_smaller {
+                margin-left: 60px;
+            }
+            .menu_link_smaller{
+                margin-left: 60px;
+            }
+            .our_menu_section_smaller {
+                padding: 96px 24px;
+            }
+            .tonkutso_ramen_smaller{
+                margin-top: 48px;
+            }
+            .spicy_miso_ramen_smaller {
+                margin-top: 32px;
+            }
+            .shio_ramen_smaller {
+                margin-top: 32px;
+            }
+            thead {
+                font-size: 32px;
+            }
+            tbody {
+                font-size: 24px;
+            }
+            .r1_smaller {
+                margin-right: 24px;
+            }
+            .r2_smaller {
+                margin-left: 24px;
+            }
+            .r3_smaller {
+                margin-right: 24px;
+            }
+        }
+        @media(max-width: 1070px) {
+            .number_smaller { 
+                margin-left: 40px;
+            }
+            .menu_link_smaller{
+                margin-left: 40px;
+            }
+        }
+        @media(max-width: 990px) {
+            h2 {
+                font-size: 64px;
+            }
+            .number_smaller { 
+                margin-left: 30px;
+                font-size: 20px;
+            }
+            .menu_link_smaller{
+                margin-left: 30px;
+                font-size: 20px;
+            }
+            .how_to_order_section_smaller{
+                padding: 96px 24px;
+            }
+            .instruction_smaller{
+                margin-top: 48px;
+            }
+            .bowls_smaller{
+                width: 112px;
+                margin-bottom: 8px;
+            }
+            footer {
+                padding: 77px 24px;
+            }
+        }
+
+        @media(max-width: 950px) {
+            .hide-mobile {
+                display: none;
+            }
+            h1 {
+                font-size: 72px;
+                font-weight: bold;
+                text-align: center;
+            }
+            .secondheadline {
+                font-size: 20px;
+            }
+            header {
+                padding: 66px 24px;
+            }
+            .find_us_at_smaller {
+                padding: 96px 0px 14px 0px;
+            }
+            .google_maps_smaller {
+                width: 100%;
+                margin-top: 48px;
+            }
+
+            .streetname_smaller {
+                font-size: 20px;
+                margin-top: 8px;
+            }
+        }
+
+        @media(max-width: 750px) {
+
+            h2 {
+                font-size: 40px;
+                }
+            .our_menu_section_smaller {
+                padding: 72px 16px;
+                }
+            .tonkutso_ramen_smaller {
+                margin-top: 40px;
+                flex-direction: column;
+                }   
+            .r1_smaller {
+                margin-right: 0px;
+                margin-bottom: 24px;
+                }
+            table {
+                width: 100%;
+                }
+            .spicy_miso_ramen_smaller {
+                margin-top: 32px;
+                flex-direction: column-reverse;
+                }
+            .r2_smaller {
+                margin-left: 0px;
+                margin-bottom: 24px;
+                }
+            .shio_ramen_smaller {
+                margin-top: 32px;
+                flex-direction: column;
+                }  
+            .r3_smaller {
+                margin-right: 0px;
+                margin-bottom: 24px;
+                }
+            .price {
+                text-align: right;
+                }
+            footer {
+                padding: 77px 16px;
+                }
+            .social_media_reference_smaller {
+                width: 32px;
+                height: 32px;
+                }
+            .sakura_ramen_logo_and_text {
+                display: none;
+                }
+            .sakura_logo {
+                height: 40px;
+                display: block;
+                }   
+            }
+
+    	 @media(max-width: 550px) {
+
+            h2 {
+                font-size: 40px;
+            }
+            .how_to_order_section_smaller{
+                padding: 72px 16px;
+            }
+            .instruction_smaller{
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+            }
+            .bowls_smaller{
+                width: 112px;
+                margin-bottom: 8px;
+            }
+            .find_us_at_smaller {
+                padding: 70px 0px 14px 0px;
+            }
+            .google_maps_smaller {
+                width: 100%;
+                margin-top: 40px;
+            }
+
+            .streetname_smaller {
+                font-size: 16px;
+                margin-top: 8px;
+            }
+
+        }
+
+        @media(max-width: 375px) {
+
+            .number_smaller{
+                font-size: 16px;
+            }
+            h1 {
+                font-size: 44px;
+                font-weight: bold;
+                text-align: center;
+            }
+            .secondheadline {
+                font-size: 16px;
+            }
+            header {
+                padding: 32px 16px;
+            }
+            .flower_smaller {
+                width: 40px;
+                height: 40px;
+            }
+            .r1_smaller {
+                width: 270px;
+                height: 270px;
+            }
+            .r2_smaller {
+                width: 270px;
+                height: 270px;
+            }
+            .r3_smaller {
+                width: 270px;
+                height: 270px;
+            }
+        }
